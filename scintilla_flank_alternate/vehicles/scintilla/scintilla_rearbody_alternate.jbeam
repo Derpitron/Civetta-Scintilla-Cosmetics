@@ -17,7 +17,7 @@
         "flexbodies":[
             ["mesh", "[group]:", "nonFlexMaterials"],
             ["scintilla_flank_hardtop_alternate", ["scintilla_rearroof"]],
-            ["scintilla_rear_heat_shield", ["scintilla_rearbody"]],
+            ["scintilla_rear_heat_shield_alternate", ["scintilla_rearbody"]],
         ],
     
         "nodes":[

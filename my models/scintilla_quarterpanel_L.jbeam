@@ -1,0 +1,26 @@
+{
+"scintilla_quarterpanel_L":{
+	"information":{
+		"authors":"PRC0",
+		"name":"Alternate Rear Left Quarter Panel",
+		"value":2000,
+	},
+	"slotType" : "scintilla_quarterpanel_L",
+	"slots" : [
+		["type", "default", "description"],
+		["scintilla_innerfender_RL","scintilla_innerfender_RL","Rear Left Inner Fender"],
+		["scintilla_fenderflare_RL","","Rear Left Fender Flare"],
+	],
+	"flexbodies": [
+		["mesh", "[group]:", "nonFlexMaterials"],
+		["scintilla_flank_L_alternate",["scintilla_quarterpanel_L"]],
+		{"deformGroup":""},
+	],
+	"nodes": [
+		["id", "posX", "posY", "posZ"],
+		{"frictionCoef":0.5},
+		{"nodeMaterial":"|NM_METAL"},
+		{"collision":true},
+		{"selfCollision":true},
+		{"nodeWeight":0.5},
+		{"group":"scintilla_quarterpanel_L"},
