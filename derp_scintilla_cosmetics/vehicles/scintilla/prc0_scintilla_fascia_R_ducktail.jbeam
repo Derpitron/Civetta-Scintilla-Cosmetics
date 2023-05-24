@@ -1,5 +1,5 @@
 {
-"derp_scintilla_fascia_R_ducktail": {
+"prc0_scintilla_fascia_R_ducktail": {
     "information":{
         "authors":"PRC0",
         "name":"Ducktail Spoiler Rear Fascia",
@@ -10,7 +10,7 @@
 
     "slots": [
         ["type", "default", "description"],
-        ["scintilla_spoiler_perf","scintilla_spoiler_perf", ""],
+        ["scintilla_spoiler_perf","", "Rear Spoiler"],
         ["scintilla_valance_R","scintilla_valance_R_perf", "Rear Valance"],
         ["scintilla_lettering_fascia_R","scintilla_lettering_fascia_R", "Rear Fascia Lettering"],
         ["scintilla_taillight_R","scintilla_taillight_R", "Right Taillight", {"coreSlot":true}],
