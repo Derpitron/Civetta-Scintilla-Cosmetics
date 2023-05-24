@@ -1,5 +1,5 @@
 {
-    "prc0_scintilla_quarterpanel_R_wingless": {
+    "derp_scintilla_quarterpanel_R_wingless": {
         "information":{
             "authors":"PRC0",
             "name":"Wingless Rear Right Quarter Panel",
@@ -15,7 +15,7 @@
         ],
         "flexbodies": [
              ["mesh", "[group]:", "nonFlexMaterials"],
-             ["prc0_scintilla_quarterpanel_R_wingless", ["scintilla_quarterpanel_R"]],
+             ["derp_scintilla_quarterpanel_R_wingless", ["scintilla_quarterpanel_R"]],
         ],
         "nodes": [
              ["id", "posX", "posY", "posZ"],
@@ -338,7 +338,7 @@
                 {"group":""},
         ],
     },
-    "prc0_scintilla_quarterpanel_L_wingless": {
+    "derp_scintilla_quarterpanel_L_wingless": {
         "information":{
             "authors":"PRC0",
             "name":"Wingless Rear Left Quarter Panel",
@@ -354,7 +354,7 @@
         ],
         "flexbodies": [
              ["mesh", "[group]:", "nonFlexMaterials"],
-             ["prc0_scintilla_quarterpanel_L_wingless", ["scintilla_quarterpanel_L"]],
+             ["derp_scintilla_quarterpanel_L_wingless", ["scintilla_quarterpanel_L"]],
         ],
         "nodes": [
              ["id", "posX", "posY", "posZ"],

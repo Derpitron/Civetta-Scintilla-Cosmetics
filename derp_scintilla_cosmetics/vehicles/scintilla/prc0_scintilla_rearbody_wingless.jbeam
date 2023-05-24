@@ -1,5 +1,5 @@
 {
-    "prc0_scintilla_rearbody_hardtop_wingless":
+    "derp_scintilla_rearbody_hardtop_wingless":
     {
         "information":{
             "authors":"PRC0",
@@ -16,8 +16,8 @@
         ],
         "flexbodies":[
             ["mesh", "[group]:", "nonFlexMaterials"],
-            ["scintilla_flank_hardtop_wingless", ["scintilla_rearroof"]],
-            ["scintilla_rear_heat_shield", ["scintilla_rearbody"]],
+            ["derp_scintilla_flank_hardtop_wingless", ["scintilla_rearroof"]],
+            ["derp_scintilla_rear_heat_shield_wingless", ["scintilla_rearbody"]],
         ],
     
         "nodes":[
@@ -317,7 +317,7 @@
         ],
         "flexbodies":[
             ["mesh", "[group]:", "nonFlexMaterials"],
-            ["prc0_scintilla_flank_hardtop_wingless", ["scintilla_rearroof"]],
+            ["derp_scintilla_flank_hardtop_wingless", ["scintilla_rearroof"]],
             ["scintilla_rear_heat_shield_cut", ["scintilla_rearbody"]],
         ],
     
