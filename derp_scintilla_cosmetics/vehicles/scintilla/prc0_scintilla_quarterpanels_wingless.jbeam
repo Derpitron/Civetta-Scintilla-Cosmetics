@@ -10,7 +10,7 @@
     
         "slots":[
             ["type", "default", "description"],
-            ["scintilla_innerfender_RR","scintilla_innerfender_RR", "Rear Right Inner Fender"],
+            ["scintilla_innerfender_RR","sacintilla_innerfender_RR", "Rear Right Inner Fender"],
             ["scintilla_fenderflare_RR","", "Rear Right Fender Flare"],
         ],
         "flexbodies": [
