@@ -1,7 +1,7 @@
 {
-"scintilla_bumper_R_clean": {
+"derp_scintilla_bumper_R_clean": {
     "information":{
-        "authors":"BeamNG",
+        "authors":"Derpitron",
         "name":"Clean Performance Rear Bumper",
         "value":650,
     },
@@ -18,10 +18,10 @@
          ["mesh", "[group]:", "nonFlexMaterials"],
          ["scintilla_race_diffuser", ["scintilla_bumper_R"]],
          ["scintilla_rear_bumper_clean", ["scintilla_bumper_R"]],
-         ["scintilla_rear_bumper_perf_L1", ["scintilla_bumper_R"]],
-         ["scintilla_rear_bumper_perf_R1", ["scintilla_bumper_R"]],
-         ["scintilla_rear_bumper_perf_L2", ["scintilla_bumper_R"]],
-         ["scintilla_rear_bumper_perf_R2", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_L1", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_R1", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_L2", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_R2", ["scintilla_bumper_R"]],
          ["scintilla_rear_bumper_perf_grille", ["scintilla_bumper_R"]],
          ["scintilla_bumpersignal_backing_R_perf", ["scintilla_bumper_R"]],
     ],
