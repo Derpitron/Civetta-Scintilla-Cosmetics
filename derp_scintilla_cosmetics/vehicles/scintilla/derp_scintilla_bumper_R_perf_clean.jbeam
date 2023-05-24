@@ -1,5 +1,5 @@
 {
-"derp_scintilla_bumper_R_clean": {
+"derp_scintilla_bumper_R_perf_clean": {
     "information":{
         "authors":"Derpitron",
         "name":"Clean Performance Rear Bumper",
@@ -16,12 +16,11 @@
     ],
     "flexbodies": [
          ["mesh", "[group]:", "nonFlexMaterials"],
-         ["scintilla_race_diffuser", ["scintilla_bumper_R"]],
-         ["scintilla_rear_bumper_clean", ["scintilla_bumper_R"]],
-         ["derp_scintilla_rear_bumper_perf_L1", ["scintilla_bumper_R"]],
-         ["derp_scintilla_rear_bumper_perf_R1", ["scintilla_bumper_R"]],
-         ["derp_scintilla_rear_bumper_perf_L2", ["scintilla_bumper_R"]],
-         ["derp_scintilla_rear_bumper_perf_R2", ["scintilla_bumper_R"]],
+         ["scintilla_rear_bumper_perf", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_L1_clean", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_R1_clean", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_L2_clean", ["scintilla_bumper_R"]],
+         ["derp_scintilla_rear_bumper_perf_R2_clean", ["scintilla_bumper_R"]],
          ["scintilla_rear_bumper_perf_grille", ["scintilla_bumper_R"]],
          ["scintilla_bumpersignal_backing_R_perf", ["scintilla_bumper_R"]],
     ],
@@ -31,37 +30,37 @@
          {"collision":true}
          {"selfCollision":true},
          {"frictionCoef":0.8},
-         {"nodeMaterial":"|NM_METAL"},
+         {"nodeMaterial":"|NM_PLASTIC"},
 
          {"group":"scintilla_bumper_R"},
-         {"nodeWeight":0.2},
+         {"nodeWeight":0.2}
          ["rb1rrr",-0.997,1.542,0.686],
-         ["rb1rr",-0.841,1.849,0.793],
+         ["rb1rr",-0.8,1.94,0.82],
          ["rb1r",-0.473,2.03,0.72],
          ["rb1",0.0,2.08,0.72],
          ["rb1l",0.473,2.03,0.72],
-         ["rb1ll",0.841,1.849,0.793],
+         ["rb1ll",0.8,1.94,0.82],
          ["rb1lll",0.997,1.542,0.686],
 
-         ["rb2rrr",-0.95,1.684,0.523],
-         ["rb2rr",-0.82,1.97,0.523],
-         ["rb2r",-0.4,2.18,0.5],
-         ["rb2",0.0,2.178,0.509],
-         ["rb2l",0.4,2.18,0.5],
-         ["rb2ll",0.82,1.97,0.523],
-         ["rb2lll",0.95,1.684,0.523],
+         ["rb2rrr",-0.916,1.71,0.45],
+         ["rb2rr",-0.78,2.02,0.48],
+         ["rb2r",-0.38,2.18,0.47],
+         ["rb2",0.0,2.18,0.509],
+         ["rb2l",0.38,2.18,0.47],
+         ["rb2ll",0.78,2.02,0.48],
+         ["rb2lll",0.916,1.71,0.45],
 
-         ["rb3rrr",-0.8,1.735,0.173],
-         ["rb3rr",-0.786,1.957,0.225],
-         ["rb3r",-0.4,2.071,0.252],
-         ["rb3",0.0,2.11,0.252],
-         ["rb3l",0.4,2.071,0.252],
-         ["rb3ll",0.786,1.957,0.225],
-         ["rb3lll",0.8,1.735,0.173],
+         ["rb3rrr",-0.8,1.735,0.147],
+         ["rb3rr",-0.786,1.957,0.2],
+         ["rb3r",-0.4,2.071,0.226],
+         ["rb3",0.0,2.11,0.226],
+         ["rb3l",0.4,2.071,0.226],
+         ["rb3ll",0.786,1.957,0.2],
+         ["rb3lll",0.8,1.735,0.147],
 
-         ["rb4r",-0.447,1.729,0.167],
-         ["rb4",0.0,1.729,0.167],
-         ["rb4l",0.447,1.729,0.167],
+         ["rb4r",-0.35,1.82,0.13],
+         ["rb4",0.0,1.82,0.167],
+         ["rb4l",0.35,1.82,0.13],
 
          {"nodeWeight":0.3},
          ["rb5r",-0.501,1.864,0.549, {"collision":false, "selfCollision":false}],
@@ -320,7 +319,7 @@
           ["rb1l", "rx7l"],
           ["rx4l", "rb2l"],
           ["rx4r", "rb2r"],
- 
+
           ["rb1l", "rx4l"],
           ["rb3l", "rx7l"],
           ["rb3", "rx4l"],
@@ -465,5 +464,5 @@
             ["rb3rr", "rb4r", "rb3rrr", {"liftCoef":44}],
             {"group":""},
     ],
-},
+}
 }

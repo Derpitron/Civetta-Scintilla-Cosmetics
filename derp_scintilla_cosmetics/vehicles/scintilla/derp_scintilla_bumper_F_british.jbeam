@@ -9,7 +9,7 @@
     "slots": [
         ["type", "default", "description"],
         ["scintilla_lettering_bumper_F","scintilla_lettering_bumper_F", "Front Bumper Badge"],
-        ["scintilla_licenseplate_F","scintilla_licenseplate_F_EU", "Front License Plate", {"nodeOffset":{"x":0, "y":0, "z":0}}],
+        ["scintilla_licenseplate_F","scintilla_licenseplate_F_EU", "Front License Plate", {"nodeOffset":{"x":0, "y":0.01, "z":-0.07}}],
         ["scintilla_sidemarker_FR","scintilla_sidemarker_FR", "Front Right Side Marker"],
         ["scintilla_sidemarker_FL","scintilla_sidemarker_FL", "Front Left Side Marker"],
         ["scintilla_flashers_bumper_F","", "Concealed Flashers"],
